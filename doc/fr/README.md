@@ -1,4 +1,4 @@
-# Educoin la cryptomonnaie académique
+# Educoin la cryptomonaie meta
 
 Educoin à pour objectif de permettre la création d'une cryptomonnaie innovante
 à part entière.
@@ -82,7 +82,8 @@ La modularité se délimite ainsi :
 - Paramètres,
 - Algorithme de consensus,
 - Structure des transactions,
-- Structure des blocs.
+- Structure des blocs,
+- Scripts.
 
 ## Paramètres
 
@@ -147,6 +148,24 @@ Pour chaque nouveau protocole annexe un bloc génésis doit être généré. Les
 _inchangeables_ sont générés par le protocole maître sans que le créateur en ait
 le contrôle. En revanche, les attributs modifiables et les champs additionnels
 _peuvent_ être définis par le créateur à la génération du bloc génésis.
+
+## Scripts
+
+[Le wiki de Bitcoin](https://en.bitcoin.it/wiki/Script) définie le script de la manière suivante :
+
+> Bitcoin utilise un système de script pout les transactions. Le script est simple, basé sur la pile, et procéduré de gauche à droite.
+C'est volontairement pas turing complet, avec aucun moyen d'effectuer des boucles.
+
+En d'autres termes, le script Bitcoin permet de programmer avec des transactions.
+
+Par défaut toutes les fonctions intégrées par Bitcoin sont également dans cette
+cryptomonnaie, ces fonctions sont appelées des "OP CODE". Donc un script
+est un ensemble d'op codes.
+
+Le créateur de protocole annexe _peut_ écrire ses op codes comme il le souhaite,
+il pourrait même tenter de créer des scripts turing complet et produire des
+contrats intelligents sur une base de cryptomonnaie similaire à Bitcoin, puisque
+le protocole maître est proche de Bitcoin.
 
 # Conclusion
 
