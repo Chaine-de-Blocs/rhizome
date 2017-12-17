@@ -167,6 +167,19 @@ il pourrait même tenter de créer des scripts turing complet et produire des
 contrats intelligents sur une base de cryptomonnaie similaire à Bitcoin, puisque
 le protocole maître est proche de Bitcoin.
 
+# Dictionnaire
+
+L'une des partcularités du protocole maître sera de recenser un dictionnaire des
+protocoles annexes.
+
+Un dictionnaire se pésente sous la forme d'un script qui comporte toutes les informations
+relatives à son protocole.
+
+De cette manière les noeuds sur le protocole maître seront notifiés de l'arrivée
+d'un nouveau protocole et pourront le joindre si ils le souhaite. La topologie de réseau
+de ce nouveau protocole annexe sera alors proche de la topologie du réseau
+maître.
+
 # Conclusion
 
 Ce projet propose un échaffaudage à cryptomonnaies. De nombreuses personnes ressentent le besoin
