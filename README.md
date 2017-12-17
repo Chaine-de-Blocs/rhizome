@@ -12,7 +12,11 @@ Educoin allows you to build your own cryptocurrency without any friction.
 # Setting up dev environment (regtest network)
 
 Build docker's image and build the containers
-`docker-composer up --build`
+```
+docker-composer up --build
+```
 
 Build multiple nodes where n is the number of nodes
-`docker-compose up --build --scale educoin-node=n`
+```
+docker-compose up --build --scale educoin-node=n
+```
