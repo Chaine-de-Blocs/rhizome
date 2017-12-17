@@ -1,0 +1,37 @@
+version: '2'
+services:
+
+  educoin-bootnode:
+    build: .
+    restart: on-failure
+    ports:
+      - 9669:9669
+    volumes:
+      - .:/go/src/app
+    networks:
+      regnet:
+        ipv4_address: 10.5.0.99
+
+  educoin-node:
+    build: .
+    restart: on-failure
+    ports:
+      - 9668
+    volumes:
+      - .:/go/src/app
+    networks:
+      - regnet
+    entrypoint:
+      - go
+      - run
+      - net.go
+      - 10.5.0.99
+
+networks:
+  regnet:
+    driver: bridge
+    ipam:
+      config:
+        -
+          subnet: 10.5.0.0/16
+          gateway: 10.5.0.1
