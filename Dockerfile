@@ -1,6 +1,6 @@
 FROM golang:1.8
 
-WORKDIR /go/src/app
+WORKDIR /go/src/educoin
 COPY . .
 
 RUN apt-get update

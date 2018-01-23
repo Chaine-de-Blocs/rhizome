@@ -1,31 +1,35 @@
 version: '2'
 services:
 
-  educoin-bootnode:
+  bootnode:
     build: .
     restart: on-failure
     ports:
       - 9669:9669
     volumes:
-      - .:/go/src/app
+      - .:/go/src/educoin
     networks:
       regnet:
         ipv4_address: 10.5.0.99
+    entrypoint:
+      - go
+      - run
+      - main.go
 
-  educoin-node:
+  node:
     build: .
     restart: on-failure
     ports:
       - 9668
     volumes:
-      - .:/go/src/app
+      - .:/go/src/educoin
     networks:
       - regnet
     entrypoint:
       - go
       - run
-      - net.go
-      - 10.5.0.99
+      - main.go
+      - -entry=10.5.0.99
 
 networks:
   regnet:

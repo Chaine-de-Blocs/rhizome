@@ -18,5 +18,5 @@ docker-composer up --build
 
 Build multiple nodes where n is the number of nodes
 ```
-docker-compose up --build --scale educoin-node=n
+docker-compose up --build --scale node=n
 ```
