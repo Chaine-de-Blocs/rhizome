@@ -1,10 +1,10 @@
 package src
 
 import (
-	"educoin/src/protocol"
 	"log"
 	"net"
 	"os"
+	"rhizome/src/protocol"
 	"sync"
 	"time"
 )

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"educoin/src"
 	"flag"
 	"log"
+	"rhizome/src"
 )
 
 func main() {

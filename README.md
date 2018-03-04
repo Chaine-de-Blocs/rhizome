@@ -1,6 +1,6 @@
-# educoin the meta cryptocurrency
+# rhizome the meta cryptocurrency
 
-Educoin allows you to build your own cryptocurrency without any friction.
+Rhizome allows you to build your own cryptocurrency without any friction.
 
 [Livre blanc FR](./doc/fr)
 

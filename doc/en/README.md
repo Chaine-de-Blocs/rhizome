@@ -1,1 +1,1 @@
-educoin
+rhizome

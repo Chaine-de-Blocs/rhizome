@@ -7,7 +7,7 @@ services:
     ports:
       - 9669:9669
     volumes:
-      - .:/go/src/educoin
+      - .:/go/src/rhizome
     networks:
       regnet:
         ipv4_address: 10.5.0.99
@@ -22,7 +22,7 @@ services:
     ports:
       - 9668
     volumes:
-      - .:/go/src/educoin
+      - .:/go/src/rhizome
     networks:
       - regnet
     entrypoint:

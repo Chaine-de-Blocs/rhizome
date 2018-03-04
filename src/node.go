@@ -2,10 +2,10 @@ package src
 
 import (
 	"bytes"
-	"educoin/src/protocol"
 	"encoding/gob"
 	"log"
 	"net"
+	"rhizome/src/protocol"
 	"strings"
 )
 
