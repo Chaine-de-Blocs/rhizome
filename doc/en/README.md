@@ -154,3 +154,14 @@ In other words, the Bitcoin script allows to execute code with transactions.
 By default all the functions integrated by Bitcoin are also in this cryptocurrency, these functions are called "OP CODE". So a script is a set of op codes.
 
 The protocol creator appendix _can_ write its op codes as it wishes, it could even create complete turing scripts and produce smart contracts on a cryptocurrency similar to Bitcoin, since the master protocol is close to Bitcoin.
+
+# Consensus Algorithm
+
+Integration of AlgoRand algorithm.
+
+AlgoRand is a consensus algorithm proposed by Silvo Micali as part of MIT. The proposal attempts to address Bitcoin's proof of work problems which are high electricity consumption and too long validation time.
+
+AlgoRand can produce a block every 10 seconds without security risk. Rhizome has a block production at the rate of 1 block per 1 minute.
+
+We will see that Rhizome integrates an interest for the actors to be active on the network.
+This aspect is crucial since the quality of the network lies in the number of actors who provide security.
