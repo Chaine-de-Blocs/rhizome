@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 	"os"
-	"rhizome/src/protocol"
+	"./protocol"
 	"sync"
 	"time"
 )
