@@ -4,8 +4,8 @@ Rhizome a pour objectif de permettre la création d'une cryptomonnaie
 à part entière.
 
 Aujourd'hui, en 2018, il existe deux manières de créer une cryptomonnaie :
-- Copier le code de [bitcoin](https://github.com/bitcoin/bitcoin) (fork) en modifiant certaines
-parties dont le genesis block pour se séparer du réseau de Bitcoin.
+- Copier le code d'une cryptomonaie comme [Bitcoin](https://github.com/bitcoin/bitcoin) ou [Ethereum](https://github.com/ethereum/go-ethereum) (fork) en modifiant certaines
+parties dont le genesis block pour se séparer du réseau de Bitcoin. Vous pouvez voir une carte incomplète de fork pour savoir qu'elle cryptomonnaie viens d'où sur [Map of Coin](http://mapofcoins.com/bitcoin)
 - Créer un jeton depuis un contrat intelligent. Cette méthode, bien qu'en apparence
 laisse penser que nous créons une nouvelle cryptomonnaie, dépend intégralement
 du protocole qui régie le contrat intelligent. Elle est adaptée au usages simples.
@@ -32,7 +32,7 @@ connaître une existence avec peu d'acteurs, bien que la récompense était
 faible (en monnaie fiduciaire : euro, dollar, yuan). De plus Bitcoin a bénéficié de la primauté :
 un nouveau moyen de gérer l'échange dans un réseau trustless.
 
-L'objectif de ce projet est de produire une nouvelle cryptomonnaie modulaire,
+L'objectif de **Rhizome** est de produire une nouvelle cryptomonnaie modulaire,
 sans affecter la topologie de son réseau décentralisé et basée
 sur la structure de [Bitcoin](https://bitcoin.org/bitcoin.pdf).
 
