@@ -96,8 +96,8 @@ Liste des paramètres :
 - PoW limit
 - PoW durée (temps pour miner un bloc)
 - PoW période avant ajustement
-- Port mainnet
-- Port testnet
+- Port mainnet par défaut
+- Port testnet par défaut
 - Nom du token
 - Ticker du token (ex: BTC)
 - Préfixe des adresses
