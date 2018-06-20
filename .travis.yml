@@ -1,0 +1,15 @@
+language: go
+
+go:
+  - master
+  - "1.8.x"
+
+dist: trusty
+os: linux
+
+env:
+
+git:
+  depth: 1
+
+script: go build main.go
