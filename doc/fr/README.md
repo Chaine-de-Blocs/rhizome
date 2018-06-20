@@ -67,7 +67,7 @@ consensus qui permet de synchroniser le réseau décentralisé.
 **Protocole maître** : Désigne le configuration de base du protocole du projet. Ce
 sera le protocole utilisé dans le réseau maître.
 
-**Réseau** : Réseau décentralisé utilisant le protocole maître pour communiquer.
+**Réseau maître** : Réseau décentralisé utilisant le protocole maître pour communiquer.
 
 **Topologie de réseau** : Architecture du réseau. La topologie évoque la localisation
 des nodes du réseau et leur capacité à diffuser les informations selon un protocole
@@ -91,11 +91,11 @@ charge juste de leur renseigner l'existence de cryptomonnaies annexes.
 Cela permet de bénéficier d'une partie de la topologie du réseau maître.
 
 La modularité se délimite ainsi :
-- Paramètres,
-- Algorithme de consensus,
-- Structure des transactions,
-- Structure des blocs,
-- Scripts.
+- Paramètres
+- Algorithme de consensus
+- Structure des transactions
+- Structure des blocs
+- Scripts
 
 ## Paramètres
 

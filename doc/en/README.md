@@ -60,6 +60,6 @@ Exemple : [Cryptonote](https://cryptonote.org/) is a protocol.
 
 **Master Protocol** : The main protocol of **Rhizome**.
 
-**Network** : Decentralized network using the master protocol.
+**Master Network** : Decentralized network using the master protocol.
 
 **Network Topology** : All the nodes.
