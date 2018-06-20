@@ -39,35 +39,47 @@ sur la structure de [Bitcoin](https://bitcoin.org/bitcoin.pdf).
 L'implantation des différentes couches est basée sur la dernière version de
 [Bitcoin](https://github.com/bitcoin/bitcoin) (0.15.1)
 
-# Faciliter la compréhension
+# Lexique
 
-**Cryptomonnaie** : parfois utilisé comme synonyme à "protocole". C'est un terme plus
+Ce lexique n'est pas généraliste est n'est valable que dans ce contexte.
+
+**Cryptomonnaie** : Parfois utilisé comme synonyme à "protocole". C'est un terme plus
 usuel pour parler d'un protocole qui gère un consensus avec des procédés
 cryptographiques, et dont l'utilité est d'être une monnaie.
+Éxemple : [Monero](https://github.com/monero-project/monero) est la cryptomonaie mais [Cryptonote](https://cryptonote.org/) est le protocole.
 
-**Cryptomonnaie annexe** : cryptomonnaie créée par un utilisateur du projet, synonyme de "protocole annexe".
+**Cryptomonnaie annexe** : Cryptomonnaie créée par un utilisateur de **Rizhome**, synonyme de "protocole annexe".
+Éxemple : [Litecoin](https://github.com/litecoin-project/litecoin) est un fork de [Bitcoin](https://github.com/bitcoin/bitcoin)
 
-**Protocole** : ensemble de règles qui stipule comment un réseau doit communiquer. Cela
+**Node** : Un acteurs du réseau, ordinateur faisant tourner le programme qui permet d'accéder et d'interagir avec la blockchain.
+
+**Full Node** : Une node qui est accessible depuis le WAN (une node qui se trouve directement sur internet ou qui redirige le trafic des ports de connexion vers elle même sois avec l'upnp ou un redirection statique), cella permet aux autres nodes de la contacter pour obtenir la blockchain ou lui envoyer des tx, cela permet d'avoir une plus grande réactivité dans le lien au réseau et d'y contribuer.
+
+**Boot Node** : C'est une node spécial qui est souvent maintenue par les développeurs principaux, cette node ne sers pas forcément la blockchain mais est utilisé comme point de rencontre par les nouveaux arrivants.
+
+**Protocole** : Ensemble de règles qui stipule comment un réseau doit communiquer. Cela
 comprend la structure des blocs, la structure des transactions et la règle de
 consensus qui permet de synchroniser le réseau décentralisé.
+Éxemple : [Cryptonote](https://cryptonote.org/) est un protocole
 
-**Protocole annexe** : protocole créé par un utilisateur du projet.
+**Protocole annexe** : Protocole créé par un utilisateur de **Rhizome**.
 
-**Protocole maître** : désigne le configuration de base du protocole du projet. Ce
+**Protocole maître** : Désigne le configuration de base du protocole du projet. Ce
 sera le protocole utilisé dans le réseau maître.
 
-**Réseau** : réseau décentralisé utilisant le protocole maître pour communiquer.
+**Réseau** : Réseau décentralisé utilisant le protocole maître pour communiquer.
 
-**Topologie de réseau** : architecture du réseau. La topologie évoque la localisation
-des acteurs du réseau et leur capacité à diffuser les informations selon un protocole
-commun. Voir la topologie comme une mapemonde avec des points qui sont les acteurs
+**Topologie de réseau** : Architecture du réseau. La topologie évoque la localisation
+des nodes du réseau et leur capacité à diffuser les informations selon un protocole
+commun. Voir la topologie comme une map monde avec des points qui sont les acteurs
 et des liens qui sont leurs connexions.
+Éxemple : [ethernodes](https://www.ethernodes.org/network/1))
 
-**Tx** : désigne une transaction.
+**Tx** : Désigne une transaction.
 
 # Modularité
 
-L'apport innovant de ce projet est d'apporter une modularité à la cryptomonnaie.
+L'apport innovant de **Rhizome** est d'apporter une modularité à la cryptomonnaie.
 Un créateur de cryptomonnaie doit pouvoir définir sa cryptomonnaie,
 avec plus ou moins de complexités et sans devoir modifier le code d'origine.
 Foncièrement cela revient à se séparer du réseau maître.
@@ -299,12 +311,12 @@ du tour de participation
 
 # Conclusion
 
-Ce projet propose un échaffaudage à cryptomonnaies. De nombreuses personnes ressentent le besoin
+**Rhizome** propose un échaffaudage à cryptomonnaies. De nombreuses personnes ressentent le besoin
 de faire leur cryptomonnaie pour des besoins particuliers ou même pour s'amuser à
 avoir sa cryptomonnaie.
 
 En plus de l'utilité économique au même titre que Bitcoin, avec l'ancienneté en moins,
-ce projet s'adresse également à l'académie et à la recherche qui pourrait avoir
+**Rhizome** s'adresse également à l'académie et à la recherche qui pourrait avoir
 besoin de mettre à l'épreuve des algorithmes de consensus. Cette cryptomonnaie
 est un gain de temps considérable dans la mesure où elle propose de construire
 sa cryptomonnaie et de bénéficier d'une topologie de réseau déjà acquise.
