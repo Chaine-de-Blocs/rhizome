@@ -2,6 +2,7 @@
 
 Rhizome allows you to build your own cryptocurrency without any friction.
 
+[Livre blanc EN WIP !](./doc/en)
 [Livre blanc FR](./doc/fr)
 
 # Installation requirements

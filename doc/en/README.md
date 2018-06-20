@@ -1,3 +1,7 @@
+# WIP
+
+The english translation is work in progress and doesn't someone is working on (@Jorropo)
+
 # Rhizome the meta cryptocurrency
 
 Rhizome as for goal to allow the creation of full autonomous cryptocurrency.
