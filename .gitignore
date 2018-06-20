@@ -1,0 +1,17 @@
+# The gitignore file is a list of glob (way to select multiple file) of file to not include in the project
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Linux building result
+./main
