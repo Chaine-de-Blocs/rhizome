@@ -154,9 +154,9 @@ Les blocs par défaut comportent les attributs suivants :
  - Liste des transactions (_inchangeable_)
 - Champs additionnels...
 
-Le bloc génésis est le premier bloc au lancement d'un nouveau protocole.
+Le bloc génésis est le premier bloc au lancement d'une nouvelle cryptomonaie.
 
-Pour chaque nouveau protocole annexe un bloc génésis doit être généré. Les attributs
+Pour chaque nouvelle cryptomonaie annexe un bloc génésis doit être généré. Les attributs
 _inchangeables_ sont générés par le protocole maître sans que le créateur en ait
 le contrôle. En revanche, les attributs modifiables et les champs additionnels
 _peuvent_ être définis par le créateur à la génération du bloc génésis.
