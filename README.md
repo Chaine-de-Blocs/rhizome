@@ -2,6 +2,7 @@
 
 Rhizome allows you to build your own cryptocurrency without any friction.
 
+[Livre blanc EN WIP !](./doc/en)
 [Livre blanc FR](./doc/fr)
 
 # Installation requirements
@@ -13,7 +14,7 @@ Rhizome allows you to build your own cryptocurrency without any friction.
 
 Build docker's image and build the containers
 ```
-docker-composer up --build
+docker-compose up --build
 ```
 
 Build multiple nodes where n is the number of nodes
