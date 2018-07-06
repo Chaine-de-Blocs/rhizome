@@ -5,7 +5,7 @@ import (
 	"encoding/gob"
 	"log"
 	"net"
-	"rhizome/src/protocol"
+	"./protocol"
 	"strings"
 )
 

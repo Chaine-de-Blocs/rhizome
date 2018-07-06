@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"log"
-	"rhizome/src"
+	"./src"
 )
 
 func main() {
