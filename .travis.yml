@@ -3,6 +3,9 @@ language: go
 go:
   - master
   - "1.8.x"
+  - "1.9.x"
+  - "1.10.x"
+  - "1.x"
 
 dist: trusty
 os: linux
