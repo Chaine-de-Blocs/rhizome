@@ -15,4 +15,4 @@ env:
 git:
   depth: 1
 
-script: go build main.go
+script: "go build main.go"
